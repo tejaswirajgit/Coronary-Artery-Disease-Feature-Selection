@@ -19,7 +19,7 @@ short_description: Logistic regression CAD classifier on UCI Cleveland data
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Live Demo](https://img.shields.io/badge/HF%20Spaces-Live%20Demo-yellow?logo=huggingface)](https://huggingface.co/spaces/workface/coronary-artery-disease)
 
-**Live demo:** <https://huggingface.co/spaces/workface/coronary-artery-disease>
+**Live demo:** [huggingface.co/spaces/workface/coronary-artery-disease](https://huggingface.co/spaces/workface/coronary-artery-disease)
 
 ![App screenshot](assets/screenshots/app.png)
 
