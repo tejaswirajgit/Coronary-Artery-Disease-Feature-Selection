@@ -1,2 +1,35 @@
 CLAUDE.md
 .claude/
+
+# Local Python environments
+env/
+.venv/
+venv/
+
+# Python bytecode and caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Notebook checkpoints and stale outputs
+.ipynb_checkpoints/
+*.ipynb.bak
+tree.dot
+tree.png
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Streamlit cache
+.streamlit/cache/
+
+# NOTE: models/ is intentionally tracked so Hugging Face Spaces can serve
+# the pickled model without re-running training.

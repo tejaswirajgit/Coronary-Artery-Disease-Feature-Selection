@@ -1,0 +1,57 @@
+{
+  "accuracy": 0.8289473684210527,
+  "precision": 0.8709677419354839,
+  "recall": 0.75,
+  "roc_auc": 0.8861111111111111,
+  "confusion_matrix": [
+    [
+      36,
+      4
+    ],
+    [
+      9,
+      27
+    ]
+  ],
+  "n_features": 8,
+  "baseline": {
+    "accuracy": 0.8157894736842105,
+    "precision": 0.8928571428571429,
+    "recall": 0.6944444444444444,
+    "roc_auc": 0.8784722222222222,
+    "confusion_matrix": [
+      [
+        37,
+        3
+      ],
+      [
+        11,
+        25
+      ]
+    ],
+    "n_features": 13
+  },
+  "n_train": 227,
+  "n_test": 76,
+  "feature_names": [
+    "sex",
+    "chest_pain_type",
+    "max_heart_rate",
+    "exer_ind_angina",
+    "st_depression",
+    "st_slope",
+    "num_major_vessels",
+    "thallium_scint"
+  ],
+  "coefficients": {
+    "sex": 0.23368802633350194,
+    "chest_pain_type": 0.4624957187950471,
+    "max_heart_rate": -0.39095880032053254,
+    "exer_ind_angina": 0.6396469424835707,
+    "st_depression": 0.45907751533201313,
+    "st_slope": 0.30451760786152304,
+    "num_major_vessels": 0.9222768399575618,
+    "thallium_scint": 0.5186300150005408
+  },
+  "random_state": 0
+}
