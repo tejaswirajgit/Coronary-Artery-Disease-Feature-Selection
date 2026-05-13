@@ -1,12 +1,25 @@
+---
+title: Coronary Artery Disease Risk Estimator
+emoji: "❤️"
+colorFrom: red
+colorTo: pink
+sdk: streamlit
+sdk_version: 1.39.0
+app_file: app.py
+pinned: false
+license: mit
+short_description: Logistic regression CAD classifier on UCI Cleveland data
+---
+
 # Coronary Artery Disease Risk Estimator
 
 > Feature-selection-driven binary classifier for coronary artery disease, trained on the UCI Cleveland heart disease dataset and deployed as a Streamlit app.
 
 [![Python](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![Live Demo](https://img.shields.io/badge/HF%20Spaces-Live%20Demo-yellow?logo=huggingface)](https://huggingface.co/spaces/tejaswirajgit/coronary-artery-disease)
+[![Live Demo](https://img.shields.io/badge/HF%20Spaces-Live%20Demo-yellow?logo=huggingface)](https://huggingface.co/spaces/workface/coronary-artery-disease)
 
-**Live demo:** <https://huggingface.co/spaces/tejaswirajgit/coronary-artery-disease>
+**Live demo:** <https://huggingface.co/spaces/workface/coronary-artery-disease>
 
 ![App screenshot](assets/screenshots/app.png)
 
@@ -54,7 +67,7 @@ The final model uses fewer features, scales every feature so convergence is dram
 ## Selected features
 
 | Feature | Why kept |
-|---|---|
+| --- | --- |
 | `num_major_vessels` | Strongest discriminator across every selection method; largest scaled coefficient. |
 | `thallium_scint` | High chi² + univariate accuracy; clinically the closest non-invasive proxy for CAD. |
 | `exer_ind_angina` | Strong binary predictor; small confidence interval in univariate test. |
